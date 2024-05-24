@@ -12,6 +12,7 @@ export default function PostsList() {
 					{posts.map((post, idx) => (
 						<Post
 							key={idx}
+							id={post.id}
 							author={post.author}
 							body={post.body}
 						/>
